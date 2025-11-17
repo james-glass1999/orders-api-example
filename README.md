@@ -1,6 +1,7 @@
-# 🛒 Online Orders API  
-A simple Node.js + Express REST API used to manage online orders.  
-Built as part of a Swagger/OpenAPI tutorial and includes full CRUD operations, example request bodies, and JSON file persistence.
+# 🛒 Online Orders API
+
+A simple Node.js + Express REST API for managing online orders.  
+Built as part of a Swagger/OpenAPI tutorial, including full CRUD operations and a complete `openapi.yaml` specification file.
 
 ---
 
@@ -8,20 +9,37 @@ Built as part of a Swagger/OpenAPI tutorial and includes full CRUD operations, e
 
 This project demonstrates:
 
-- A full **OpenAPI 3.0 (Swagger)** specification  
-- CRUD operations with **Node.js + Express**
-- Data persistence using a simple **orders.json** file  
-- Example request bodies and responses  
-- Testing using **curl**
-- Clean API structure (GET, POST, PUT, DELETE)
+- A complete **OpenAPI 3.0 (Swagger)** specification  
+- Full CRUD API using **Node.js + Express**
+- JSON file persistence using `orders.json`
+- Example request bodies and responses
+- cURL commands for testing
+- GitHub documentation + MIT License
 
-It is perfect as an example backend project for learning or portfolio use.
+This project is ideal for learning backend APIs or showcasing API skills in a portfolio.
+
+---
+
+## 📄 Swagger / OpenAPI Documentation
+
+You can view the API documentation by importing the OpenAPI file into Swagger Editor.
+
+### **OpenAPI file:**  
+👉 [`openapi.yaml`](./openapi.yaml)
+
+### **View in Swagger Editor:**
+
+1. Open: https://editor.swagger.io  
+2. Click **File → Import File**
+3. Select `openapi.yaml` from your project
+
+Swagger UI will display all your endpoints, request bodies, parameters, and example responses.
 
 ---
 
 ## 🚀 Getting Started
 
-### **1. Clone the repository**
+### **Clone the repository**
 
 ```bash
 git clone https://github.com/james-glass1999/orders-api-example.git
