@@ -1,46 +1,52 @@
-# 🛒 Online Orders API
+# Online Order API — Orders API Example
 
-A simple Node.js + Express REST API for managing online orders.  
-Built as part of a Swagger/OpenAPI tutorial, including full CRUD operations and a complete `openapi.yaml` specification file.
-
----
-
-## 📘 Overview
-
-This project demonstrates:
-
-- A complete **OpenAPI 3.0 (Swagger)** specification  
-- Full CRUD API using **Node.js + Express**
-- JSON file persistence using `orders.json`
-- Example request bodies and responses
-- cURL commands for testing
-- GitHub documentation + MIT License
-
-This project is ideal for learning backend APIs or showcasing API skills in a portfolio.
+A simple CRUD API built with **Node.js**, **Express**, and documented using **Swagger / OpenAPI 3.0**.  
+This project was developed as part of an API design learning module and demonstrates a **design-first** workflow using Swagger Editor.
 
 ---
 
-## 📄 Swagger / OpenAPI Documentation
+## Overview
 
-You can view the API documentation by importing the OpenAPI file into Swagger Editor.
+The Online Order API provides a minimal example of how to:
 
-### **OpenAPI file:**  
-👉 [`openapi.yaml`](./openapi.yaml)
+- Retrieve all orders  
+- Create a new order  
+- Update an existing order  
+- Delete an order  
 
-### **View in Swagger Editor:**
-
-1. Open: https://editor.swagger.io  
-2. Click **File → Import File**
-3. Select `openapi.yaml` from your project
-
-Swagger UI will display all your endpoints, request bodies, parameters, and example responses.
+All data is stored in a simple JSON file (`orders.json`), making this API easy to understand and extend.
 
 ---
 
-## 🚀 Getting Started
+## Features
 
-### **Clone the repository**
+- ✔ Built with **Node.js + Express**
+- ✔ Fully documented **OpenAPI 3.0** spec (`openapi.yaml`)
+- ✔ CRUD operations for managing order data
+- ✔ Easy to extend and integrate
+- ✔ Simple JSON file used as a data store
+- ✔ Includes cURL testing examples
+
+---
+
+## OpenAPI Specification
+
+This project includes a complete **OpenAPI 3.0** document:
+
+**[`openapi.yaml`](openapi.yaml)**
+
+It defines all routes, request bodies, responses, and data schema.
+
+You can view or edit it in **Swagger Editor**:  
+https://editor.swagger.io/
+
+---
+
+## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/james-glass1999/orders-api-example.git
 cd orders-api-example
+
